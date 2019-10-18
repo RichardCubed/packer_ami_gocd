@@ -4,18 +4,18 @@ Packer scripts to create AWS AMIs for a GOCD server and agent.  Both use t3.micr
 
 ## AMI Configuration
 
-Source AMI: ami-035b3c7efe6d061d5 (Amazon Linux)
-Instance size: t3.micro
-Storage: Block (So it's ephemeral)
+Source AMI: ami-035b3c7efe6d061d5 (Amazon Linux)<br/>
+Instance size: t3.micro<br/>
+Storage: Block (So it's ephemeral)<br/>
 
 ## Agent Configuration
 
-Java (1.8.0-openjdk)
-Telnet
-Node.JS (Latest)
-Newman (The POSTman CLI runner)
-Terraform 0.12.1
-Docker (Latest)
+Java (1.8.0-openjdk)<br/>
+Telnet<br/>
+Node.JS (Latest)<br/>
+Newman (The POSTman CLI runner)<br/>
+Terraform 0.12.1<br/>
+Docker (Latest)<br/>
 
 ## Building
 
