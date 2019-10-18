@@ -12,7 +12,7 @@ Storage: Block (So it's ephemeral)<br/>
 
 Java (1.8.0-openjdk)<br/>
 Telnet<br/>
-Node.JS (Latest)<br/>
+Node.JS (8)<br/>
 Newman (The POSTman CLI runner)<br/>
 Terraform 0.12.1<br/>
 Docker (Latest)<br/>
