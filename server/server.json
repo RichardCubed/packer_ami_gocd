@@ -1,0 +1,19 @@
+{
+    "builders": [{
+        "type": "amazon-ebs",
+        "access_key": "{{user `aws_access_key`}}",
+        "secret_key": "{{user `aws_secret_key`}}",
+        "region": "us-east-1",
+        "source_ami": "ami-035b3c7efe6d061d5",
+        "instance_type": "t3.micro",
+        "ssh_username": "ec2-user",
+        "ami_name": "gocd-server {{timestamp}}",
+        "tags": {
+            "Name": "gocd-server"
+        }
+    }],
+    "provisioners": [{
+        "type": "shell",
+        "script": "setup.sh"
+    }]
+  }
