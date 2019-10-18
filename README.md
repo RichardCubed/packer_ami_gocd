@@ -19,7 +19,7 @@ Docker (Latest)<br/>
 
 ## Building
 
-You'll need HashiCorp Packer (obvioiusly) an AWS account, the AWS CLI tools installed locally and configured with your aws_access_key, aws_secret_key and aws_region.
+You'll need HashiCorp Packer, an AWS account, the AWS CLI tools installed locally and configured with your aws_access_key, aws_secret_key and aws_region.
 
 ```bash
 packer build
